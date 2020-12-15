@@ -1,0 +1,11 @@
+.avatar-marie img {
+  width: 300px;
+  object-fit: cover;
+}
+
+.contact-link {
+  color: #fdb827;
+  &:hover {
+    text-decoration: underline;
+  }
+}

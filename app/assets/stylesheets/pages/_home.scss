@@ -1,1 +1,61 @@
-// Specific CSS for your home-page
+.photos img {
+  width: 400px;
+}
+
+.photos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0px !important;
+}
+
+.container-photos {
+  margin: 0 auto;
+}
+
+.container-sm hr {
+  margin: 50px auto;
+  padding: 10px 0;
+}
+
+.contact-home {
+  background-color: rgba(253, 184, 39, 0.2);
+  border: #fdb827 solid 1px;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+// TEST
+/* quick reset */
+
+/* relevant styles */
+.img__wrap {
+  position: relative;
+  padding: 0;
+}
+
+.img__wrap:hover .one,.img__wrap:hover  .two, .img__wrap:hover .three, .img__wrap:hover .for, .img__wrap:hover .five, .img__wrap:hover .six, .img__wrap:hover .seven, .img__wrap:hover .eight, .img__wrap:hover .nine, .img__wrap:hover .ten, .img__wrap:hover .eleven, .img__wrap:hover .twelve {
+  opacity: 0.8;
+  transition: 1s;
+}
+
+
+
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  text-shadow: 1px 0px 1px grey;
+  opacity: 1;
+}

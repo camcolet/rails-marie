@@ -1,0 +1,46 @@
+.portfolio img {
+  height: 380px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.portfolio, .portfolio2, .portfolio3, .portfolio1, .portoflio4 {
+  padding: 0px;
+}
+
+.portfolio2 img {
+  height: 950px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.portfolio3 img {
+  height: 570px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.portfolio1 img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.portoflio4 img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.youtube a {
+  color: white !important;
+  &:hover {
+    color: #fdb827 !important;
+  }
+}
+
+.twelve img, .eleven img, .ten img {
+  height: 570px;
+  object-fit: cover,
+}
+
+

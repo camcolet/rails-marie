@@ -5,9 +5,31 @@
 
 // External libraries
 @import "bootstrap/scss/bootstrap";
-@import "font-awesome-sprockets";
-@import "font-awesome";
+
 
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+body {
+  background-color: white;
+}
+
+a {
+  color: black;
+  &:hover {
+    color: #fdb827;
+    text-decoration: none;
+  }
+}
+
+.container-contact {
+  width: 500px;
+  margin: 0 auto;
+}
+
+hr {
+  font-weight: bold !important;
+  color: black;
+  margin: 50px 0;
+}

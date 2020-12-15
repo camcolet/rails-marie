@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RailsMarie</title>
+    <title>Marie Colet</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <script src="https://kit.fontawesome.com/96206b0e91.js" crossorigin="anonymous"></script>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <div class="navbar">
+    <div>
+      <a href="https://www.instagram.com/mc__mua/" target="_blank" style="font-size: 40px; margin:20px;" class="d-flex justify-content-end"><i class="fab fa-instagram"></i></a>
+    </div>
+    <h1 style="text-align: center;">Marie Colet</h1>
+    <p style="text-align: center;">MAKE-UP ARTIST</p>
+
+    <div class="navbar d-flex justify-content-center">
+      <%= link_to "Home", home_path %>
       <%= link_to "About", about_path %>
       <%= link_to "Contact", contact_path %>
+      <%= link_to "Portfolio", portfolio_path %>
     </div>
-
     <%= yield %>
   </body>
 </html>

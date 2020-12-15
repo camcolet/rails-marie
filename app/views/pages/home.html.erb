@@ -1,1 +1,60 @@
-<h1>Salut!</h1>
+<div class="photos d-flex" style="margin-top: 30px;">
+  <div class="container-photos">
+    <div class="row justify-content-center">
+      <div  class="img__wrap col-12 col-md-12 col-lg-4 d-flex justify-content-center">
+        <div class="one" style="padding:0px;"><%= image_tag("image0.jpeg") %></div>
+        <p class="img__description d-flex align-items-center justify-content-center">Photo by Sacha Fooy.</p>
+      </div>
+      <div class="img__wrap col-12 col-md-12 col-lg-4 d-flex justify-content-center">
+        <div class="two" style="padding:0px"><%= image_tag("image1.jpeg") %></div>
+        <p class="img__description d-flex align-items-center justify-content-center">Photo by Sacha Fooy.</p>
+      </div>
+      <div class="img__wrap col-12 col-md-12 col-lg-4 d-flex justify-content-center">
+        <div class="for" style="padding:0px"><%= image_tag("image4.jpeg") %></div>
+        <p class="img__description d-flex align-items-center justify-content-center">Photo by Sacha Fooy.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="d-flex justify-content-center align-items-center" style="margin-top: 50px;">
+    <div style="padding: 5px;"> <%= link_to "See more ", portfolio_path %></div>
+    <div> <i class="fas fa-arrow-right" style="color: #fdb827;"></i></div>
+</div>
+
+<div class="container-sm">
+  <hr>
+</div>
+
+<div class="container">
+  <div style="margin-bottom: 50px;">
+    <div class="row d-flex align-items-center">
+      <div class="col-12 col-md-12 col-lg-8">
+        <h5>Hello!</h5>
+        <p>
+          <br>
+          I’m Marie, a certified make up artist based in Bruxelles.
+          <br><br>
+          After a degree in clinical psychology, I followed my heart toward the studies of make up.
+          I’ve worked in multiple domains such as the film industry, the theater, the photo shoots, fashion, publicity, events and television.
+          <br><br>
+          For every project, i work with the same passion and excitement.
+          <br><br>
+          I also propose lessons of basic make-up for you and/or your friends all around Brussels and the surroundings.
+          <br><br>
+          I look forward meeting and working with you!
+          <br><br>
+          Don’t hesitate to <%= link_to "contact", "mailto:camcolet@gmail.com", class: "contact-link" %> me for more informations!
+        </p>
+      </div>
+
+      <div class="contact-home col-12 col-md-12 col-lg-4 justify-content-center">
+      <h3>Contact me</h3>
+      <br>
+        <a href="mailto:camcolet@gmail.com">mariecolet01@gmail.com</a>
+        <p>+32 497 24 00 77</p>
+        <a href="https://www.instagram.com/mc__mua/" target="_blank" style="font-size: 20px; margin:20px;"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
